@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Titillium+Web:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Chakra Petch", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Background gradients */
+
+.bg-1 {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+}
+
+.bg-2 {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+}
+
+.bg-3 {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+.bg-4 {
+  background: linear-gradient(135deg, #84fab0, #8fd3f4);
+}
+
+.bg-5 {
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+
+.bg-6 {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+.bg-7 {
+  background: linear-gradient(135deg, #fbc2eb, #f6d365);
+}
+
+.bg-8 {
+  background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+}
+
+.bg-9 {
+  background: linear-gradient(135deg, #d3cce3, #e9e4f0);
+}
