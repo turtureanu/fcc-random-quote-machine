@@ -31,12 +31,23 @@ const App: Component = () => {
               freeCodeCamp{" "}
               <Icon icon="simple-icons:freecodecamp" class="align-[-3px]" />
             </span>
-            <p class="m-auto mt-2 italic text-center">
-              Front End Development Libraries Certification{" "}
-            </p>
+            <a
+              href="https://www.freecodecamp.org/learn/front-end-development-libraries/"
+              class="block mt-2 italic text-center underline underline-offset-8"
+              target="_blank"
+            >
+              Front End Development Libraries Certification
+            </a>
             <p class="m-auto mt-8 w-fit">
               <b>Project:</b> Random Quotes Machine <br />
-              <b>Author:</b> Mircea-Sebastian Turtureanu
+              <b>Author:</b>{" "}
+              <a
+                href="https://github.com/turtureanu"
+                class="underline underline-offset-4"
+                target="_blank"
+              >
+                Mircea-Sebastian Turtureanu
+              </a>
             </p>
             <button
               onClick={toggleTest}
