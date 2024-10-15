@@ -40,8 +40,6 @@ const App: Component = () => {
             </a>
             <p class="m-auto mt-8 w-fit">
               <b>Project:</b> Random Quotes Machine <br />
-              <b>Source code: </b>
-              <br />
               <b>Author:</b>{" "}
               <a
                 href="https://github.com/turtureanu"
