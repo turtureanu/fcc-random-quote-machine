@@ -3,7 +3,7 @@ import quotes from "./quotes.json";
 
 import { Icon } from "@iconify-icon/solid";
 
-const getQuoteNumber = () => Math.floor(Math.random() * quotes.length - 1);
+const getQuoteNumber = () => Math.floor(Math.random() * quotes.length);
 const getBackgroundClass = () => `bg-${Math.floor(Math.random() * 9) + 1}`;
 
 export const Quote: Component = () => {

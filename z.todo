@@ -1,5 +1,6 @@
-[ ] Transitions between quotes
-[ ] Toggle test script logic
-[ ] Make a GitHub repo and push
-[ ] Upload to Netlify
-[ ] Submit to FCC
+[x] Transitions between quotes
+[x] Toggle test script logic
+[x] Make a GitHub repo and push
+[x] Upload to Netlify
+[x] Submit to FCC
+[x] Fix quote RNG
