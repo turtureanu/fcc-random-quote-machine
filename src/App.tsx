@@ -40,6 +40,8 @@ const App: Component = () => {
             </a>
             <p class="m-auto mt-8 w-fit">
               <b>Project:</b> Random Quotes Machine <br />
+              <b>Source code: </b>
+              <br />
               <b>Author:</b>{" "}
               <a
                 href="https://github.com/turtureanu"
@@ -49,12 +51,21 @@ const App: Component = () => {
                 Mircea-Sebastian Turtureanu
               </a>
             </p>
-            <button
-              onClick={toggleTest}
-              class="block p-2 mx-auto mt-8 text-xl text-black bg-white hover:bg-slate-200 w-fit"
-            >
-              Toggle certification project tests
-            </button>
+            <div class="flex gap-x-4 justify-center mt-8">
+              <button
+                onClick={toggleTest}
+                class="block p-2 text-xl text-black bg-white rounded-sm hover:bg-slate-200 w-fit"
+              >
+                Toggle tests
+              </button>
+              <a
+                href="https://github.com/turtureanu/fcc-random-quote-machine"
+                target="_blank"
+                class="block p-2 text-xl text-black bg-white rounded-sm hover:bg-slate-200"
+              >
+                Source code
+              </a>
+            </div>
           </div>
         </div>
       </div>
